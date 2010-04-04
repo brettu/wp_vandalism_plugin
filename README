@@ -1,0 +1,11 @@
+Version 1.0
+
+Current only supported in Wordpress version 2.8
+
+Wordpress 2.9 changed some of its uploading features and I have not had a chance to update the plugin yet. 
+
+To activate, upload the folder to your wp-content/plugin directory and activate in the admin panel.
+
+Set the crossdomain.xml file on the root of your server where wordpress is hosted. Most likely the public_html directory.
+
+When the plug-in is activated, every photo uploaded through the wp-uploader will have a pixlr tag wrapped around it. By clicking on the published photo the pixlr window will open and allow editing. Upon closing, save the image back to referrer, and saved in the edited directory, inside the drawing_app, directory will be the image. Upon returning to the post the comments table will have link. Pressing the link fires a javascript command asking for the file name. Insert the name and MAGIC. The image is placed in the comments text field. Submit the comment and the image shall appear in the stream.  
